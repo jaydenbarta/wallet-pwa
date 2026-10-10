@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <clipPath id="lcardCorners">
+      <rect x="0" y="0" width="856" height="540" rx="36" ry="36"/>
+    </clipPath>
+    <linearGradient id="darkCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22242a"/>
+      <stop offset="60%" stop-color="#16181c"/>
+      <stop offset="100%" stop-color="#0f1012"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#lcardCorners)">
+    <rect x="0" y="0" width="856" height="540" fill="url(#darkCardGrad)"/>
+    <rect x="0" y="0" width="856" height="540" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.08"/>
+  </g>
+</svg>

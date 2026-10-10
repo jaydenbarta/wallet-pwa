@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <clipPath id="rcardCorners">
+      <rect x="0" y="0" width="856" height="540" rx="36" ry="36"/>
+    </clipPath>
+    <linearGradient id="blueCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142646"/>
+      <stop offset="60%" stop-color="#0c172c"/>
+      <stop offset="100%" stop-color="#070e1c"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#rcardCorners)">
+    <rect x="0" y="0" width="856" height="540" fill="url(#blueCardGrad)"/>
+    <!-- Subtle dark watermark letter on far right -->
+    <text x="80" y="440" font-family="'Plus Jakarta Sans', sans-serif" font-size="80" font-weight="800" fill="#ffffff" fill-opacity="0.35">A</text>
+  </g>
+</svg>

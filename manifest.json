@@ -1,0 +1,19 @@
+{
+  "name": "Wallet",
+  "short_name": "Wallet",
+  "description": "Next-Generation Digital Wallet PWA",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "display_override": ["fullscreen", "standalone"],
+  "background_color": "#1e1f23",
+  "theme_color": "#1e1f23",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/app_icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

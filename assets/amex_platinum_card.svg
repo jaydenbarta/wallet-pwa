@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <!-- Metallic Platinum Base Gradients -->
+    <linearGradient id="platinumBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e3e7ec"/>
+      <stop offset="25%" stop-color="#c6cbd4"/>
+      <stop offset="50%" stop-color="#abb2be"/>
+      <stop offset="75%" stop-color="#c0c6cf"/>
+      <stop offset="100%" stop-color="#9199a6"/>
+    </linearGradient>
+
+    <!-- Brushed Sheen Highlights -->
+    <linearGradient id="brushedHighlight" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="20%" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="45%" stop-color="#000000" stop-opacity="0.08"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="85%" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Radial Glare -->
+    <radialGradient id="platinumGlare" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.35"/>
+    </radialGradient>
+
+    <!-- Border Shadow / Rim -->
+    <linearGradient id="rimLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#a0a8b4" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3d4450" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <!-- Card Clip -->
+    <clipPath id="cardCorners">
+      <rect x="0" y="0" width="856" height="540" rx="34" ry="34"/>
+    </clipPath>
+
+    <!-- Guilloche Security Rings Pattern -->
+    <pattern id="guillochePattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="40" cy="40" r="38" fill="none" stroke="#7a8391" stroke-width="0.75" stroke-opacity="0.25"/>
+      <circle cx="40" cy="40" r="28" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.35"/>
+      <circle cx="40" cy="40" r="18" fill="none" stroke="#636c7a" stroke-width="0.5" stroke-opacity="0.2"/>
+      <path d="M0,40 Q20,20 40,40 T80,40" fill="none" stroke="#8c95a3" stroke-width="0.5" stroke-opacity="0.2"/>
+      <path d="M40,0 Q20,20 40,40 T40,80" fill="none" stroke="#8c95a3" stroke-width="0.5" stroke-opacity="0.2"/>
+    </pattern>
+
+    <!-- Fine Brushed Texture Pattern -->
+    <pattern id="brushedMetalLines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="1" x2="100" y2="1" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.12"/>
+      <line x1="0" y1="3" x2="100" y2="3" stroke="#000000" stroke-width="0.6" stroke-opacity="0.08"/>
+    </pattern>
+
+    <!-- Drop Shadows -->
+    <filter id="engravedShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1" dy="1.5" stdDeviation="1" flood-color="#ffffff" flood-opacity="0.6" result="highlight"/>
+      <feDropShadow dx="-1" dy="-1.5" stdDeviation="1" flood-color="#111827" flood-opacity="0.5"/>
+    </filter>
+
+    <filter id="boxShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Card Surface Group -->
+  <g clip-path="url(#cardCorners)">
+    <!-- Base Plate -->
+    <rect x="0" y="0" width="856" height="540" fill="url(#platinumBase)"/>
+
+    <!-- Fine Brushed Lines -->
+    <rect x="0" y="0" width="856" height="540" fill="url(#brushedMetalLines)"/>
+
+    <!-- Security Guilloche Pattern Overlay -->
+    <rect x="0" y="0" width="856" height="540" fill="url(#guillochePattern)" opacity="0.45"/>
+
+    <!-- Intricate Security Lathe Curves (Concentric Amex Rings) -->
+    <g opacity="0.35" stroke="#ffffff" fill="none">
+      <circle cx="428" cy="270" r="140" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <circle cx="428" cy="270" r="160" stroke-width="0.8"/>
+      <circle cx="428" cy="270" r="185" stroke-width="1" stroke-dasharray="6 4"/>
+      <circle cx="428" cy="270" r="210" stroke-width="0.75"/>
+      <circle cx="428" cy="270" r="240" stroke-width="1.2" stroke-dasharray="2 4"/>
+      <circle cx="428" cy="270" r="280" stroke-width="0.9"/>
+      <circle cx="428" cy="270" r="320" stroke-width="0.75"/>
+      <circle cx="428" cy="270" r="370" stroke-width="1.2" stroke-dasharray="8 5"/>
+      <circle cx="428" cy="270" r="430" stroke-width="0.8"/>
+    </g>
+
+    <!-- Outer Security Geometric Border -->
+    <rect x="24" y="24" width="808" height="492" rx="20" ry="20" fill="none" stroke="#687282" stroke-width="2" stroke-opacity="0.4"/>
+    <rect x="30" y="30" width="796" height="480" rx="16" ry="16" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.5"/>
+    <rect x="34" y="34" width="788" height="472" rx="14" ry="14" fill="none" stroke="#7a8494" stroke-width="1" stroke-dasharray="4 2" stroke-opacity="0.4"/>
+
+    <!-- Brushed Light Reflections -->
+    <rect x="0" y="0" width="856" height="540" fill="url(#brushedHighlight)"/>
+    <rect x="0" y="0" width="856" height="540" fill="url(#platinumGlare)"/>
+
+    <!-- ==============================================
+         AMEX CENTURION (GLADIATOR) MEDALLION (CENTER)
+         ============================================== -->
+    <g transform="translate(428, 270)">
+      <!-- Outer Engraved Medallion Rings -->
+      <circle cx="0" cy="0" r="118" fill="#a4acb8" fill-opacity="0.3" stroke="#4b5360" stroke-width="3" stroke-opacity="0.5"/>
+      <circle cx="0" cy="0" r="114" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+      <circle cx="0" cy="0" r="105" fill="none" stroke="#717a88" stroke-width="1" stroke-dasharray="3 3"/>
+      <circle cx="0" cy="0" r="98" fill="#bac0cb" fill-opacity="0.25" stroke="#586170" stroke-width="1.5" stroke-opacity="0.4"/>
+
+      <!-- Inner Guilloche Rosette Teeth -->
+      <g stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.45">
+        <line x1="0" y1="-114" x2="0" y2="-106"/>
+        <line x1="43" y1="-105" x2="39" y2="-98"/>
+        <line x1="80" y1="-80" x2="74" y2="-74"/>
+        <line x1="105" y1="-43" x2="98" y2="-39"/>
+        <line x1="114" y1="0" x2="106" y2="0"/>
+        <line x1="105" y1="43" x2="98" y2="39"/>
+        <line x1="80" y1="80" x2="74" y2="74"/>
+        <line x1="43" y1="105" x2="39" y2="98"/>
+        <line x1="0" y1="114" x2="0" y2="106"/>
+        <line x1="-43" y1="105" x2="-39" y2="98"/>
+        <line x1="-80" y1="80" x2="-74" y2="74"/>
+        <line x1="-105" y1="43" x2="-98" y2="39"/>
+        <line x1="-114" y1="0" x2="-106" y2="0"/>
+        <line x1="-105" y1="-43" x2="-98" y2="-39"/>
+        <line x1="-80" y1="-80" x2="-74" y2="-74"/>
+        <line x1="-43" y1="-105" x2="-39" y2="-98"/>
+      </g>
+
+      <!-- Centurion Silhouette Profile (Roman Warrior Helmet with Crest) -->
+      <g transform="scale(0.85) translate(-5, -5)">
+        <!-- Helmet Crest Feathers -->
+        <path d="M-35,-82 C-15,-92 20,-92 48,-78 C65,-70 78,-52 82,-35 C75,-45 55,-58 35,-65 C12,-72 -15,-72 -35,-82 Z" 
+              fill="#2d333e" opacity="0.6"/>
+        <path d="M-30,-78 C-10,-86 22,-86 46,-74 C58,-68 70,-54 75,-40 C62,-50 42,-60 22,-65 C0,-70 -18,-70 -30,-78 Z" 
+              fill="#ffffff" opacity="0.5"/>
+        <path d="M-22,-72 C-5,-78 22,-78 40,-68 C50,-62 60,-50 65,-38 C54,-46 38,-54 20,-58 C2,-62 -12,-64 -22,-72 Z" 
+              fill="#3e4654" opacity="0.5"/>
+
+        <!-- Helmet Dome & Visor -->
+        <path d="M-28,-50 C-22,-72 15,-72 32,-56 C44,-44 48,-28 46,-12 C35,-10 20,-15 10,-24 C2,-32 -10,-40 -28,-50 Z" 
+              fill="#2a303b" opacity="0.65"/>
+        <!-- Helmet Rim & Ear Guard -->
+        <path d="M-38,-42 C-20,-48 10,-46 28,-32 C38,-24 42,-12 40,4 C34,22 24,35 12,44 C-2,38 -10,24 -14,8 C-18,-6 -26,-24 -38,-42 Z" 
+              fill="#424b58" opacity="0.5"/>
+
+        <!-- Roman Centurion Face Profile -->
+        <path d="M12,-22 C18,-20 22,-14 24,-6 C26,0 28,6 32,8 C36,10 32,14 26,16 C22,18 20,22 18,28 C14,35 6,40 -4,44 C-12,47 -24,46 -32,38 C-42,28 -44,12 -42,-4 C-40,-20 -36,-34 -28,-44 C-24,-48 -18,-36 -12,-28 C-8,-22 2,-24 12,-22 Z" 
+              fill="#2c3340" opacity="0.55"/>
+
+        <!-- Medallion Engraved Highlights -->
+        <path d="M-25,-48 C-10,-60 18,-60 30,-48 C38,-38 40,-24 38,-10" 
+              fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
+        <path d="M-32,-35 C-18,-42 8,-40 22,-28 C30,-20 32,-10 30,2" 
+              fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+        <path d="M-10,12 C-2,20 8,22 16,16" 
+              fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+      </g>
+    </g>
+
+    <!-- ==============================================
+         AMERICAN EXPRESS CLASSIC TOP HEADER
+         ============================================== -->
+    <!-- AMEX Wordmark with Shadow & Emboss -->
+    <g transform="translate(64, 94)">
+      <text x="0" y="0" font-family="'Plus Jakarta Sans', 'Copperplate', 'Cinzel', 'Arial Black', sans-serif" 
+            font-size="28" font-weight="900" letter-spacing="4.5" fill="#1b212c" opacity="0.5">
+        AMERICAN EXPRESS
+      </text>
+      <text x="-1.5" y="-1.5" font-family="'Plus Jakarta Sans', 'Copperplate', 'Cinzel', 'Arial Black', sans-serif" 
+            font-size="28" font-weight="900" letter-spacing="4.5" fill="#ffffff" opacity="0.85">
+        AMERICAN EXPRESS
+      </text>
+      <text x="-1" y="-1" font-family="'Plus Jakarta Sans', 'Copperplate', 'Cinzel', 'Arial Black', sans-serif" 
+            font-size="28" font-weight="900" letter-spacing="4.5" fill="#2e3542">
+        AMERICAN EXPRESS
+      </text>
+    </g>
+
+    <!-- Top-Right: PLATINUM label -->
+    <g transform="translate(792, 92)" text-anchor="end">
+      <text x="0" y="0" font-family="'Plus Jakarta Sans', 'Roboto', sans-serif" 
+            font-size="22" font-weight="700" letter-spacing="3" fill="#1e2430" opacity="0.45">
+        PLATINUM
+      </text>
+      <text x="-1" y="-1" font-family="'Plus Jakarta Sans', 'Roboto', sans-serif" 
+            font-size="22" font-weight="700" letter-spacing="3" fill="#ffffff" opacity="0.9">
+        PLATINUM
+      </text>
+      <text x="-0.5" y="-0.5" font-family="'Plus Jakarta Sans', 'Roboto', sans-serif" 
+            font-size="22" font-weight="700" letter-spacing="3" fill="#2d3442">
+        PLATINUM
+      </text>
+    </g>
+
+    <!-- ==============================================
+         EMV CHIP (LEFT SIDE) & CONTACTLESS WAVE
+         ============================================== -->
+    <g transform="translate(68, 175)">
+      <!-- EMV Chip Body -->
+      <rect x="0" y="0" width="76" height="58" rx="10" ry="10" fill="#c4cad4" stroke="#5d6573" stroke-width="1.8" filter="url(#boxShadow)"/>
+      <rect x="2" y="2" width="72" height="54" rx="8" ry="8" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.8"/>
+      <!-- Chip Contacts Lines -->
+      <line x1="0" y1="20" x2="26" y2="20" stroke="#5d6573" stroke-width="1.5"/>
+      <line x1="0" y1="38" x2="26" y2="38" stroke="#5d6573" stroke-width="1.5"/>
+      <line x1="50" y1="20" x2="76" y2="20" stroke="#5d6573" stroke-width="1.5"/>
+      <line x1="50" y1="38" x2="76" y2="38" stroke="#5d6573" stroke-width="1.5"/>
+      <line x1="26" y1="0" x2="26" y2="58" stroke="#5d6573" stroke-width="1.5"/>
+      <line x1="50" y1="0" x2="50" y2="58" stroke="#5d6573" stroke-width="1.5"/>
+      <rect x="26" y="16" width="24" height="26" rx="4" ry="4" fill="#aab1be" stroke="#5d6573" stroke-width="1.5"/>
+    </g>
+
+    <!-- Contactless EMV Symbol -->
+    <g transform="translate(164, 188)" stroke="#3e4654" stroke-width="2.8" fill="none" stroke-linecap="round">
+      <path d="M0,32 C4.5,24 4.5,10 0,2"/>
+      <path d="M8,37 C15,26 15,7 8,-3"/>
+      <path d="M16,42 C26,28 26,4 16,-8"/>
+      <path d="M24,47 C37,30 37,2 24,-13"/>
+    </g>
+
+    <!-- "debit / credit" label -->
+    <g transform="translate(68, 285)">
+      <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" 
+            font-size="20" font-weight="600" letter-spacing="1.5" fill="#303846">
+        credit
+      </text>
+    </g>
+
+    <!-- ==============================================
+         CARD FOOTER: EMBOSSED NUMBERS & AMEX BLUE BOX
+         ============================================== -->
+    <!-- Embossed Amex Card Digits -->
+    <g transform="translate(68, 465)">
+      <!-- Emboss Drop Shadow -->
+      <text x="2" y="2" font-family="'Courier New', Courier, monospace" font-size="34" font-weight="700" letter-spacing="6" fill="#1b202a" opacity="0.5">
+        •••• 8515
+      </text>
+      <!-- Emboss Light Highlight -->
+      <text x="-1.5" y="-1.5" font-family="'Courier New', Courier, monospace" font-size="34" font-weight="700" letter-spacing="6" fill="#ffffff" opacity="0.95">
+        •••• 8515
+      </text>
+      <!-- Base Text -->
+      <text x="0" y="0" font-family="'Courier New', Courier, monospace" font-size="34" font-weight="700" letter-spacing="6" fill="#2d3442">
+        •••• 8515
+      </text>
+    </g>
+
+    <!-- Authentic American Express Blue Box Logo (Bottom Right) -->
+    <g transform="translate(692, 400)" filter="url(#boxShadow)">
+      <!-- Blue Box Base -->
+      <rect x="0" y="0" width="100" height="74" rx="8" ry="8" fill="#006fcf" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.8"/>
+      <rect x="4" y="4" width="92" height="66" rx="6" ry="6" fill="#002663"/>
+      <rect x="6" y="6" width="88" height="62" rx="4" ry="4" fill="#0070d2"/>
+      
+      <!-- Crisp Amex Typography Inside Box -->
+      <text x="50" y="32" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" 
+            font-size="13.5" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1.2">
+        AMERICAN
+      </text>
+      <text x="50" y="52" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" 
+            font-size="13.5" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1.2">
+        EXPRESS
+      </text>
+    </g>
+  </g>
+
+  <!-- Specular Rim Light Ring around entire card -->
+  <rect x="1" y="1" width="854" height="538" rx="33" ry="33" fill="none" stroke="url(#rimLight)" stroke-width="2.5" pointer-events="none"/>
+</svg>
